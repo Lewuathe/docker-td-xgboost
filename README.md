@@ -1,4 +1,4 @@
-XGBoost Docker image with Treasure Data
+XGBoost Docker image with Treasure Data [![Docker Pulls](https://img.shields.io/docker/pulls/lewuathe/docker-td-xgboost.svg)]() [![Docker Stars](https://img.shields.io/docker/stars/lewuathe/docker-td-xgboost.svg)]()
 ===
 
 
