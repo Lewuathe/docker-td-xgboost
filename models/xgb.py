@@ -70,7 +70,7 @@ def predict(args, options):
 
     with open(model_filename, 'w+b') as f:
         s3 = boto3.resource('s3')
-        s3.Bucket(os.environ['AWS_BUCKET']).download_fileobj(model_filename, f)
+        s3.Bucket(os.environ['AWS_BUCKET_NAME']).download_fileobj(model_filename, f)
         rf = joblib.load(f)
 
     ret = rf.predict(X)
